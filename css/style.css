@@ -24,6 +24,12 @@
     font-size: 20px;
 }
 
+.header{
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 /* nav design */
 nav{
     display: flex;
@@ -49,4 +55,34 @@ nav li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/* banner design */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px -100px 0px 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-welcome{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-name{
+    font-weight: bold;
+    font-size: 85px;
+    color: #181818;
+}
+
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+}
+
+.banner-pic{
+    width: 580px;
 }
